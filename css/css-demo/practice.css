@@ -11,3 +11,13 @@
 .list {
   font-size: .8em;
 }
+
+li:hover {
+  color: red;
+}
+
+.list > li {
+  color: yellow; 
+
+}
+
