@@ -1,11 +1,24 @@
-#hat {
-  
+.octopus {
+  display: block;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  z-index: 1;
 }
 
-#glasses{
-
+.glasses {
+  display: block;
+  position: relative;
+  top: 165px;
+  left: 140px;
+  z-index: 2;
 }
 
-#octopus{
-
+.hat {
+  display: block;
+  position: relative;
+  bottom: 350px;
+  left: 80px;
+  z-index: 2;
 }
+
