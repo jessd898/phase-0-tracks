@@ -1,0 +1,13 @@
+- Find buttons outside elevator
+  - press up button if going up
+  - press down bottom if going down
+- When elevator arrives confirm that it is going in direction selected above 
+  - If confirm yes, enter elevator 
+  - If not wait for another elevator
+- Once confirmed, enter elevator
+- Make sure doors close
+    -if not press close doors
+- Choose what floor you would like to go to (random number between 1 and 40)
+- Find and press that one button to what floor you selected on panel 
+- Wait in elevator until you reach floor
+- When doors open, leave the elevator
