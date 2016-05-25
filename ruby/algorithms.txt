@@ -8,5 +8,6 @@
 - Make sure doors close
     -if not press close doors
 - Choose what floor you would like to go to (random number between 1 and 40)
-- Press button to what floor you selected
+- Find and press that one button to what floor you selected on panel 
+- Wait in elevator until you reach floor
 - When doors open, leave the elevator
