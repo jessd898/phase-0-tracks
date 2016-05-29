@@ -17,7 +17,6 @@ puts "What is the approximate age of this hamster?"
     else 
         age = age.to_f
     end
-    
 
 puts "The hamster is named #{name}, and is #{volume} notches loud on a scale of 1-10."
 puts "The hamster is #{fur_color} and approximately #{age} years old."
