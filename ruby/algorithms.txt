@@ -1,3 +1,5 @@
+Elevator Algorithm
+
 - Find buttons outside elevator
   - press up button if going up
   - press down bottom if going down
@@ -11,3 +13,28 @@
 - Find and press that one button to what floor you selected on panel 
 - Wait in elevator until you reach floor
 - When doors open, leave the elevator
+
+Real-Life Algorithm
+
+- If alarm goes off
+  - get out of bed 
+  - Otherwise, snooze alarm for 10 minutes
+- Did I take a shower last night?
+  - If yes, get dressed
+    -Find one article of clothing of each and put it on. 
+  - If not, shower
+    (those details on another algorithm)
+    -After shower get dressed
+     -Find one article of clothing of each and put it on. 
+- Find contact case, Put contacts in
+- Find toothbrush and toothpaste. Open toothpaste and place a pea size amount on toothbrush. Brush teeth by moving hand side to side and covering all teeth for 2 minutes. Spit out toothpaste after 2 minutes. Return toothbrush to where you found it.
+- Style hair. Options:
+    - to blow dry: turn blow direr on and move all over hair for 10 minutes until dry.
+    - straighten: turn on straightener and let heat up for 2 minutes. Choosing each section of hair of about 2 inches start at head and move down to end of hair until complete. 
+    - curl: turn on curling iron and let heat up for 2 minutes. Choosing each section of hair of about 2 inches start at head and twirl around iron to end of hair until complete. 
+
+
+  
+
+
+

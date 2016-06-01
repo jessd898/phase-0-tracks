@@ -4,11 +4,11 @@ puts "what is your name?"
   name = gets.chomp
 puts "How old are you?"
   age = gets.chomp.to_i
-puts "What year were you born?"
+puts "What year were you born? (YYYY)"
   birth_year = gets.chomp.to_i
 puts "Our company cafeteria serves garlic bread. Should we order some for you? (Yes/No)"
   garlic = gets.chomp
-puts"Would you like to enroll in the company's health insurance? (Yes/No)"
+puts "Would you like to enroll in the company's health insurance? (Yes/No)"
   insurance = gets.chomp
 
 #check their provided age against their birth year
@@ -17,25 +17,28 @@ real_age= 2016-birth_year
 if real_age == age
   correct_age = true
 else
-  correct_age = false
+  correct_age = falsey
 end
 
-#if employee got age correct (correct_age) and is willing to eat garlic (garlic) 
-#OR sign up for insurance (insurance). 
-#Probably not a vampire 
+##checking if vampire:
+
+vampire = "Results inconclusive" 
 
 if correct_age == true && (garlic == "yes" || insurance == "yes" )
-    vampir = "Probably not a vampire"
-else
-  #nothing
+    vampire = "Not"
+elsif correct_age == false && (garlic == "no" || insurance == "no" )
+    vampire = "Probably"
+elsif correct_age == false && (garlic == "no" && insurance == "no" )
+    vampire = "Certainly"
+else name == "Drake Cula" || name == "Tu Fang"
 end
 
-#if employee got age wrong (correct_age) and hates garlic bread (garlic)
-#OR doesn't sign up for insurance (insurance)
-#Probably a vampire!
+case vampire
+when "Not"
+    puts "Probably not a vampire"
+when "probabl"
 
-if correct_age == false && (garlic == "no" || insurance == "no" )
-    vampir = "Probably a vampire!"
-else
-  #nothing
-end
+puts "#{vampire}"
+
+
+
