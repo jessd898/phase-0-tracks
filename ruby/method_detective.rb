@@ -4,36 +4,43 @@
 # When there's more than one suspect who could have
 # committed the crime, add additional calls to prove it.
 
-# "iNvEsTiGaTiOn".<???>
+ puts "iNvEsTiGaTiOn".swapcase
 # => “InVeStIgAtIoN”
 
-# "zom".<???>
+puts "zom".insert(2,"o")
 # => “zoom”
 
-# "enhance".<???>
+ puts "enhance".center(12)
 # => "    enhance    "
 
-# "Stop! You’re under arrest!".<???>
+puts "Stop! You’re under arrest!".upcase
 # => "STOP! YOU’RE UNDER ARREST!"
 
-# "the usual".<???>
+a = "the usual"
+puts a << " suspects"
 #=> "the usual suspects"
 
-# " suspects".<???>
+a = " suspects".
+a.prepend("the usual")
+puts a
 # => "the usual suspects"
 
-# "The case of the disappearing last letter".<???>
+puts "The case of the disappearing last letter".chop
 # => "The case of the disappearing last lette"
 
-# "The mystery of the missing first letter".<???>
+puts "The mystery of the missing first letter".delete "T"
 # => "he mystery of the missing first letter"
 
-# "Elementary,    my   dear        Watson!".<???>
+puts "Elementary,    my   dear        Watson!".delete(" ")
 # => "Elementary, my dear Watson!"
 
-# "z".<???>
+puts "z".ord
 # => 122 
 # (What is the significance of the number 122 in relation to the character z?)
+#This is the corresponding integer ordinal or for the American Standards Code for Information Interchange,
+#the computer only understands numbers so this converts it to what the computer understands.
 
-# "How many times does the letter 'a' appear in this string?".<???>
+
+
+puts "How many times does the letter 'a' appear in this string?".count ("a")
 # => 4
