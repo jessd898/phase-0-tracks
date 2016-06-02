@@ -20,9 +20,8 @@ a = "the usual"
 puts a << " suspects"
 #=> "the usual suspects"
 
-a = " suspects".
-a.prepend("the usual")
-puts a
+" suspects".prepend("the usual")
+
 # => "the usual suspects"
 
 puts "The case of the disappearing last letter".chop
@@ -31,7 +30,7 @@ puts "The case of the disappearing last letter".chop
 puts "The mystery of the missing first letter".delete "T"
 # => "he mystery of the missing first letter"
 
-puts "Elementary,    my   dear        Watson!".delete(" ")
+puts "Elementary,    my   dear        Watson!".squeeze
 # => "Elementary, my dear Watson!"
 
 puts "z".ord
