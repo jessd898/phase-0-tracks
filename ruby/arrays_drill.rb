@@ -1,4 +1,3 @@
-#arr = ["yoga","Netflix","knitting"]
 
 def color_hobby(x,y,z)
   [x,y,z]
