@@ -1,3 +1,14 @@
+#arr = ["yoga","Netflix","knitting"]
+
+def color_hobby(x,y,z)
+  [x,y,z]
+end
+
+def array_method(array_new, a)
+  array_new << a
+end
+
+
 hobbies_array = []
 p hobbies_array
 
@@ -21,3 +32,9 @@ p color_array
 
 new_array = hobbies_array + color_array
 p new_array
+
+p color_hobby(1,2,3)
+
+p array_method ["a", "b", 1, 2],"3"
+p array_method ["cat", "dog"], "mouse"
+p array_method [10, 15, 20], "bike"
