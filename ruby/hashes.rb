@@ -1,4 +1,5 @@
-interior_design = { }
+interior_design = { #hash 
+}
 
 #Ask client for name
 puts "What is your full name?"
@@ -20,12 +21,24 @@ puts "What kind of theme do you want for the room?"
 puts "What is your favorite color?"
   interior_design[:color]= gets.chomp
 
-#ask do they like animal print
-puts "Do you like animal print? (true/false)"
-  interior_design[:animal_print]= gets.chomp #to boolian
-
-#Ask what date they would like to start (MM/DD/YYYY)
-puts "what date would you like to start? (MM/DD/YYYY)"
+#ask what date they would like to start (MM/DD/YYYY)
+puts "What date would you like to start? (MM/DD/YYYY)"
   interior_design[:date]= gets.chomp 
+
+#print hash 
+puts interior_design
+
+#check if user wants to update 
+puts  "If you want to change any of your answers type that category, for example, age, name, etc.? (If not type none)"
+answer = gets.chomp.to_sym
+
+#if make change go to if statement 
+if answer.to_s != "none"
+  #than ask what the new value is 
+  puts "Enter your value for #{answer}."
+
+  interior_design[answer] = gets.chomp
+  
+end
 
 puts interior_design
