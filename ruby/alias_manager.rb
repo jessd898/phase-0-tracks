@@ -58,3 +58,9 @@ end
 p full_name
 end 
 
+=begin
+  
+rescue Exception => e
+  
+end
+
