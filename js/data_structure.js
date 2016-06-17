@@ -20,3 +20,30 @@ for (var i=0; i < color_array.length; i++) {
 
 console.log(horse_color_object); 
 
+
+
+function Car(make, model, color, year,isSafeDrive) {
+  this.make = make;
+  this.model = model;
+  this.color = color;
+  this.year = year;
+  this.isSafeDrive = isSafeDrive;
+
+  this.beep = function() { console.log("Beep!");};
+
+}
+
+var newCar = new Car("Honda", "Civic", "silver", "2003", true); 
+newCar.beep(); 
+
+console.log(newCar);
+
+var oldCar = new Car("Volkwagon", "Bug", "white", "2000", false);
+oldCar.beep();
+
+console.log(oldCar); 
+
+
+
+
+
