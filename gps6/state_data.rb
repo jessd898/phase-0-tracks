@@ -1,7 +1,6 @@
 #population density is number of people per square mile as of 2012
 #this data is updated every year with estimates from a 10 year census
-
-
+#state is a string and pop_var are symbols, differences are the string has the "" and =>
 
 STATE_DATA = {
   "Alabama" => {population_density: 94.65, population: 4822023},

@@ -4,7 +4,7 @@
 # We spent [#] hours on this challenge.
 
 # EXPLANATION OF require_relative
-# Require_relative here is looking to the state_data related file. This is similar to HTML and CSS when we link the two files. 
+# Require_relative here is inside looking to the state_data related file. This is similar to HTML and CSS when we link the two files. 
 # Require will look up outside of the local files to gems (rspec is an example here). 
 require_relative 'state_data'
 
@@ -19,6 +19,7 @@ class VirusPredictor
 
 # private
 # Referencing the two other below methods and identifying the instance variables associated with the other 2 methods. 
+# We dont see a way to refactor here for the variables. 
   def virus_effects
     predicted_deaths(@population_density, @population, @state)
     speed_of_spread(@population_density, @state)
@@ -74,7 +75,7 @@ class VirusPredictor
 end
 
 #=======================================================================
-#Iterate over, each state is a new instance of the VirusPredictor class.
+#Iterate over, each state is a new instance of the VirusPredictor class. Make sure you know what they block parameters are for both key and value(print test!). 
 
 STATE_DATA.each do |state, pop_info| 
   state = VirusPredictor.new(state, pop_info[:population_density], pop_info[:population])
@@ -110,3 +111,10 @@ alaska.virus_effects
 #=======================================================================
 
 # Reflection Section
+
+# State is a string and pop_var are symbols, differences are the string has the "" and =>
+# Require_relative here is inside looking to the state_data related file. This is similar to HTML and CSS when we link the two files. 
+# Require will look up outside of the local files to gems (rspec is an example here). 
+# Iterate over, each state is a new instance of the VirusPredictor class. Make sure you know what they block parameters are for both key and value(print test!). 
+# We don't see a way to refactor here for the variables. 
+# Identify the constant variable of STATE_DATA and making this DRY. Being able to iterate through structure and create new instances of the Virus Predictor class.
